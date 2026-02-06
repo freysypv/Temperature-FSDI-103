@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(162, 227, 255);
+}
+
+.buttoncontainer {
+  background-color: rgb(233, 237, 238);
+  text-align: center;
+  box-shadow: 0 0 20px;
+  margin: 50px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.buttoncontainer button {
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+}
+.termometer {
+  background-color: rgb(227, 239, 247);
+  width: 50%;
+  height: 80%;
+  flex-direction: column;
+  display: flex;
+  box-shadow: 0 0 12px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.CelsiustoFahrenheit .FahrenheittoCelsius {
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+}
+
+table{
+  background-color: rgb(243, 238, 238) ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+button{
+  border-radius: 05px;
+  
+}

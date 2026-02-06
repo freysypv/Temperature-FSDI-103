@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="final.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="buttoncontainer">
+      <h1>Convert Temperature</h1>
+
+      <button onclick="CelsiustoFahrenheit()">Celsius to Fahrenheit</button>
+      <div id="results"></div>
+
+      <br />
+      
+
+      <button onclick="FahrenheittoCelsius()">Fahrenheit to Celsius</button>
+      <div id="results"></div>
+    </div>
+
+    <div class="termometer">
+      <h2>Convert a Temperature</h2>
+
+      <button onclick="GenerateTable()">Generate Table</button><br />
+      <table id="table">
+        <thead></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+
+    
+    </div>
+    <ul id="list"></ul>
+
+    
+
+    <button onclick="Table()">Table</button>
+     <table>
+        <thead>
+            <th>Celsius(C)</th>
+            <th>Fahrenheit(F)</th>
+        </thead>
+        <tbody id="temps">
+
+        </tbody>
+       
+    </table> 
+
+    <script src="final.js"></script>
+  </body>
+</html>
